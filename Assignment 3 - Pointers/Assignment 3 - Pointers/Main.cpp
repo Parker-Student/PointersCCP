@@ -10,6 +10,15 @@ using namespace std;
 
 // TODO: Implement the "SwapIntegers" function
 
+void SwapIntegers(int *first, int *second){
+
+	*first = *first + *second;
+	*second = *first - *second;
+	*first = *first - *second;
+
+	return;
+
+};
 
 // Do not modify the main function!
 int main()
